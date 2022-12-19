@@ -1,0 +1,13 @@
+body{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+  background-attachment: fixed;
+}
+dt{
+  background-color: white;
+}
+.article :first-child::first-letter {
+  font-size: 2em;
+  float: left;
+  line-height: 1.1;
+  margin-right: 0.5rem;
+}

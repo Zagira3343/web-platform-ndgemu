@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkgray;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.main footer {
+    margin-top: auto;
+}
+
+@media (max-width: 400px) {
+    .items{
+        flex-direction: column;
+    }
+} 
